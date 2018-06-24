@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	text-align:center;
+	}
+a {
+	font-size:24px;
+    background-color: #EDE7E7;
+	}
+img {
+	height:250px;
+	width:300px;
+}

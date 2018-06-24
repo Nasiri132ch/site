@@ -1,0 +1,53 @@
+@font-face{
+	font-family: 'iransans';
+	src: url(../fonts/iransans/eot/IRANSansWeb.eot) format('eot'),
+		url(../fonts/iransans/ttf/IRANSansWeb.ttf) format('ttf'),
+		url(../fonts/iransans/woff/IRANSansWeb.woff) format('woff');
+}
+
+body{
+    direction: rtl;
+    font-family: iransans;
+}
+header{
+    background: linear-gradient(to right, #1f8ceb, #8ca5eb,#1f8ceb, #8ca5eb,#1f8ceb, #8ca5eb); 
+    padding:20px;
+    height: 50px;
+}
+.user{
+    float: right;
+}
+.logo{
+    float: left;
+}
+nav{
+    float: right;
+    width: 200px;
+    height: 600px;
+    background: linear-gradient(to right, #1f8ceb, #8ca5eb,#1f8ceb, #8ca5eb,#1f8ceb, #8ca5eb); 
+}
+nav ul{
+    list-style-type: none;
+    margin-top: 40px;
+    display: block;
+    padding-right: 15px;
+}
+nav ul li{
+    display: block;
+}
+nav ul li a{
+    text-decoration: none;
+    line-height: 2.5;
+    display: block;
+}
+nav ul li a:hover{
+    color: white;
+    background-color: rgb(31, 96, 170);
+}
+section{
+   margin-right: 20px;
+}
+.news{
+    background-color: rgb(212, 57, 57);
+}
+
